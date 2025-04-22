@@ -10,7 +10,7 @@ public class APLine
   public double getSlope(){
     return (-(this.a/(double)this.b)); 
   }
-  public boolean isOnline (int x, int y){
+  public boolean isOnLine (int x, int y){
     return ((this.a * x)+(this.b * y) + this.c == 0); 
   }
 }
